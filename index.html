@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mutashi Poems</title>
+  <link rel="stylesheet" href="writes.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="navbar-inner">
+    <div class="nav-left">
+      <a href="/">Mutashi Writes</a>
+    </div>
+
+    <div class="nav-right">
+      <a href="#poems">Poems</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+
+<!-- HERO -->
+<header class="hero">
+  <h2>Words That Breathe</h2>
+  <p>Read. Feel. Reflect.</p>
+</header>
+
+<!-- POEMS SECTION -->
+<section id="poems" class="section">
+  <h2 class="section-title">Words into art</h2>
+
+  <div class="poem-card">
+    <h3>hi power</h3>
+    <p class="poem-text">
+      drama at it is crazy  
+      people acting all lazy
+      the reason lauryn hill dont sing no more
+    </p>
+
+    <!-- RATING -->
+    <div class="rating">
+      <span onclick="rate(this,1)">★</span>
+      <span onclick="rate(this,2)">★</span>
+      <span onclick="rate(this,3)">★</span>
+      <span onclick="rate(this,4)">★</span>
+      <span onclick="rate(this,5)">★</span>
+    </div>
+
+    <!-- COMMENTS -->
+    <div class="comments">
+      <input type="text" placeholder="Leave a comment...">
+      <button onclick="addComment(this)">Post</button>
+      <ul class="comment-list"></ul>
+    </div>
+  </div>
+
+  <div class="poem-card">
+    <h3>Die hard</h3>
+    <p class="poem-text">
+      I hope im not too late
+      to set my demons straight
+    </p>
+
+    <div class="rating">
+      <span onclick="rate(this,1)">★</span>
+      <span onclick="rate(this,2)">★</span>
+      <span onclick="rate(this,3)">★</span>
+      <span onclick="rate(this,4)">★</span>
+      <span onclick="rate(this,5)">★</span>
+    </div>
+
+    <div class="comments">
+      <input type="text" placeholder="Leave a comment...">
+      <button onclick="addComment(this)">Post</button>
+      <ul class="comment-list"></ul>
+    </div>
+  </div>
+  <div class="poem-card">
+    <h3>Backseat frrstyle</h3>
+    <p class="poem-text">
+      she rolling
+      im holding
+      scrotum when posing
+    </p>
+
+    <div class="rating">
+      <span onclick="rate(this,1)">★</span>
+      <span onclick="rate(this,2)">★</span>
+      <span onclick="rate(this,3)">★</span>
+      <span onclick="rate(this,4)">★</span>
+      <span onclick="rate(this,5)">★</span>
+    </div>
+    <div class="comments">
+      <input type="text" placeholder="Leave a comment...">
+      <button onclick="addComment(this)">Post</button>
+      <ul class="comment-list"></ul>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section alt">
+  <h2 class="section-title">About the Poet</h2>
+  <p>
+    Innocent Mutashi: what i cant say with my mouth
+    i say with my pen. A poet at heart, weaving emotions into words.
+  </p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <h2 class="section-title">Contact</h2>
+  <p>Email: mutashi1@gmail.com</p>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© 2025 MutashiInnocent • All Rights Reserved</p>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
